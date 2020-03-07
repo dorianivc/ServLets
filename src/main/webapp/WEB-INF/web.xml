@@ -4,9 +4,17 @@
         <servlet-name>HolaMundo</servlet-name>
         <servlet-class>ne.serverlet.HolaMundo</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Comentario</servlet-name>
+        <servlet-class>ne.serverlet.Comentario</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HolaMundo</servlet-name>
         <url-pattern>/HolaMundo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Comentario</servlet-name>
+        <url-pattern>/Comentario</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
